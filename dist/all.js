@@ -3743,7 +3743,7 @@ angular.module('ubermon').directive('ubermonResetPassword', function (User, $win
             console.log({authorization: getUrlParameter('access_token')});
             $http({
                 method: 'PUT',
-                url: 'https://ubermon.herokuapp.com/api/Users/' + getUrlParameter('userId') + '?authorization=',
+                url: 'https://ubermon.herokuapp.com/api/Users/' + getUrlParameter('userId'),
                 data: {password: password},
                 headers: {authorization: getUrlParameter('access_token')}
             }).then(function () {
