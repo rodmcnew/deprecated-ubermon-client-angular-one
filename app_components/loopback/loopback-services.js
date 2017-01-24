@@ -1,6 +1,6 @@
 (function(window, angular, undefined) {'use strict';
 
-var urlBase = "/api";
+var urlBase = "https://ubermon.herokuapp.com/api";
 var authHeader = 'authorization';
 
 /**
