@@ -43,9 +43,9 @@ angular.module('ubermon').directive('ubermonResetPassword', function (User, $win
         $scope.changePassword = function (password) {
             $http({
                 method: 'PUT',
-                url: 'https://ubermon.herokuapp.com/api/Users/' + getUrlParameter('userId'),
-                data: {password: password},
-                headers: {authorization: getUrlParameter('access_token')}
+                url: 'https://ubermon.herokuapp.com/api/Users/' + getUrlParameter('userId')
+                + '?authorization=' + getUrlParameter('access_token'),
+                data: {password: password}
             }).then(function () {
                 $scope.passwordChanged = true;
             }, function (response) {
