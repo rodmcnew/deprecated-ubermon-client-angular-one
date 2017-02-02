@@ -1,5 +1,4 @@
-#Ubermon Uptime Monitor
-Web outage alert system. Built on Loopback Framework, Node.js, and AngularJS.
+#The OLD web bowser client for ubermon.com built on angular one. No longer in use! 
 
 #License
 You may view this code for educational purposes but you not use, run, copy, reproduce, or distribute this code.
