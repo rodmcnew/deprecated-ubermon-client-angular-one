@@ -1,4 +1,4 @@
-#The OLD web bowser client for ubermon.com built on angular one. No longer in use! 
+#No longer in use - The OLD web bowser client for ubermon.com. Built on angular one.
 
 This was replaced with a client written in React and Redux at https://github.com/rodmcnew/ubermon-client-react-redux
 
